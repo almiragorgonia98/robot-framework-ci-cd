@@ -2,4 +2,7 @@
 2. Perform GIT command 
 git add . 
 git commit -m "Adding comments"
-git push
+
+git switch main or New-Branch
+git switch -c New-Branch
+git push or git push -u origin main or New-Branch
