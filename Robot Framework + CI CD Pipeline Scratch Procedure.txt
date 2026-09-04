@@ -1,0 +1,25 @@
+1. Install Visual Studio Code
+2. Install Python
+3. Install Robot Framework
+4. Create Repository in GitHub
+5. Create the following folder and files in your local:
+Folders
+
+.GitHub/workflows/robot-tests.yml
+resources
+results/log, output, and report
+tests/login_test.robot and all robot files for testing
+
+Files
+requirements.txt
+gitignore
+
+6. Perform GIT command in Visual Studio Code command prompt
+git add . 
+git commit -m "Adding comments"
+
+git switch main or New-Branch
+git switch -c New-Branch
+git push or git push -u origin main or New-Branch
+
+7. Validate the result if Passed or Failed in GitHub > Specific Repository > Actions
