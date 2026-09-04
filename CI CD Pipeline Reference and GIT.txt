@@ -6,3 +6,6 @@ git commit -m "Adding comments"
 git switch main or New-Branch
 git switch -c New-Branch
 git push or git push -u origin main or New-Branch
+
+:wq 
+Enter
