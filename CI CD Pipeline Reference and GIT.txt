@@ -15,3 +15,10 @@ git switch main
 git pull origin main
 git merge New-Branch
 git push origin main
+
+To copy a text filesgit switch main
+git fetch origin
+git restore --source origin/ci-cd -- Test.txt
+git add Test.txt
+git commit -m "Copy Test.txt from ci-cd"
+git push origin main
