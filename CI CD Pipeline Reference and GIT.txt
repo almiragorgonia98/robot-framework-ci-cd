@@ -9,3 +9,9 @@ git push or git push -u origin main or New-Branch
 
 :wq 
 Enter
+
+To merge from Branch to main or vice versa
+git switch main
+git pull origin main
+git merge New-Branch
+git push origin main
