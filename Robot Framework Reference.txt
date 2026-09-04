@@ -1,0 +1,14 @@
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
+File Name: login_test.robot
+How to run in Visual Studio Code or CMD?
+1st step
+cd C:\Users\LENOVO\Desktop\Almira\Automation\RF
+
+2nd step
+python -m robot login_test.robot
+
+Shortcut keys
+Opening of CMD - Ctrl+Shift+`
+Clearing the CMD - cls
+
