@@ -3,11 +3,11 @@ name: Robot Framework Tests
 on:
   push:
     branches:
-      - Environment1-Testing
+      - main
 
   pull_request:
     branches:
-      - Environment1-Testing
+      - main
 
 jobs:
   robot-tests:
