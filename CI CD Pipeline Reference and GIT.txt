@@ -1,0 +1,5 @@
+1. Create Repository in GitHub
+2. Perform GIT command 
+git add . 
+git commit -m "Adding comments"
+git push
