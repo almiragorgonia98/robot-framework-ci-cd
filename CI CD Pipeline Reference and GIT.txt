@@ -16,7 +16,7 @@ git pull origin main
 git merge New-Branch
 git push origin main
 
-To copy a text filesgit switch main
+To copy a text files from Branch to main or vice versa 
 git fetch origin
 git restore --source origin/ci-cd -- "Test.txt"
 git add "Test.txt"
