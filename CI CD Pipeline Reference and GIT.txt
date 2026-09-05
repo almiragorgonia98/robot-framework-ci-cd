@@ -22,3 +22,18 @@ git restore --source origin/ci-cd -- "Test.txt"
 git add "Test.txt"
 git commit -m "Copy Test.txt from ci-cd"
 git push origin main
+
+Shortcut Keys to open Developer Tools
+Ctrl + Shift + I
+
+To see the list of commit
+git log --oneline
+
+To compile the commit
+git rebase -i HEAD~3 (number of commits from the last row)
+pick
+squash (change)
+squash (change)
+Enter git commit message and saved
+git push
+
