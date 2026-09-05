@@ -35,5 +35,5 @@ pick
 squash (change)
 squash (change)
 Enter git commit message and saved
-
+git push
 
