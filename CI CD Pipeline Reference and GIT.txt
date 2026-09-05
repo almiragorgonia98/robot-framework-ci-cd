@@ -34,6 +34,6 @@ git rebase -i HEAD~3 (number of commits from the last row)
 pick
 squash (change)
 squash (change)
-
+Enter git commit message and saved
 
 
