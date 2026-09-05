@@ -30,5 +30,10 @@ To see the list of commit
 git log --oneline
 
 To compile the commit
-git squash 
+git rebase -i HEAD~3 (number of commits from the last row)
+pick
+squash (change)
+squash (change)
+
+
 
