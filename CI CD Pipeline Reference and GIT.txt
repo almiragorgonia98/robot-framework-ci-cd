@@ -7,6 +7,14 @@ git switch main or New-Branch
 git switch -c New-Branch
 git push or git push -u origin main or New-Branch
 
+If you created new repository but not yet sync 
+git init
+git add .
+git commit -m "Initial Robot Framework project"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git push -u origin main
+
 :wq 
 Enter
 
